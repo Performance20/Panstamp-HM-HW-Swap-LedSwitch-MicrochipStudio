@@ -1,0 +1,1589 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                              binouts2.o (_ZN14HardwareSerial5beginEmh)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                              binouts2.o (Serial)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o (main)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                              binouts2.o (delay)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                              binouts2.o (pinMode)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                              binouts2.o (_ZN6CC11018writeRegEhh)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+                              binouts2.o (panstamp)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o) (_ZN9SIMPLESPI4initEv)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+                              regtable.o (_ZN8REGISTER14sendSwapStatusEv)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+                              binouts2.o (swap)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o) (_ZN8SWPACKETC1EP8CCPACKET)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+                              regtable.o (_ZN8SWSTATUSC1EhPhh7SWDTYPE)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o) (yield)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o) (attachInterrupt)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o) (_ZN6AVRRTC6wakeUpEv)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o) (_ZN7STORAGE4readEPhhhh)
+C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o) (_ZN8REPEATER4initEh)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__subsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__ltsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__divsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__fixunssfsi)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__floatunsisf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__gtsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__mulsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__unordsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o) (__divmodhi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o) (__udivmodsi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o) (__divmodsi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o) (__negsi2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              binouts2.o (__do_copy_data)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              regtable.o (__do_clear_bss)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+                              regtable.o (__do_global_ctors)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o) (__tablejump2__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o) (abort)
+C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o) (eeprom_read_byte)
+C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+                              C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o) (eeprom_write_byte)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .text          0x00000000        0x0 binouts2.o
+ .data          0x00000000        0x0 binouts2.o
+ .bss           0x00000000        0x0 binouts2.o
+ .data.pwmPin   0x00000000        0x3 binouts2.o
+ .text          0x00000000        0x0 regtable.o
+ .data          0x00000000        0x0 regtable.o
+ .bss           0x00000000        0x0 regtable.o
+ .group         0x00000000        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial3endEv
+                0x00000000       0x44 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .group         0x00000000        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .group         0x00000000        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text._ZN5Print17availableForWriteEv
+                0x00000000        0x6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text._ZN5Print5flushEv
+                0x00000000        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .text.atexit   0x00000000        0x6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .text._Z8setupUSBv
+                0x00000000        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .group         0x00000000        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print17availableForWriteEv
+                0x00000000        0x6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5flushEv
+                0x00000000        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x00000000       0x48 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK6String
+                0x00000000       0x1c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEPKc
+                0x00000000        0x4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000       0x14 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEc
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEmi
+                0x00000000       0x1a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEhi
+                0x00000000        0xe C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEhi
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEji
+                0x00000000        0xc C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEji
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEii
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEli
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000      0x1b6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .rodata._ZTV5Print
+                0x00000000        0xc C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.digitalRead
+                0x00000000       0x52 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .progmem.data.port_to_input_PGM
+                0x00000000        0xa C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .text._ZN6CC11016wakeUpEv
+                0x00000000        0xa C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .text._ZN6CC110110disableLNAEv
+                0x00000000       0x10 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .text._ZN6CC110117setPowerDownStateEv
+                0x00000000       0x26 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .text._ZN6CC11019enableHGMEv
+                0x00000000       0x26 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .text._ZN6CC110110disableHGMEv
+                0x00000000        0xc C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .text._ZN8PANSTAMP4rxOnEv
+                0x00000000        0xe C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .text._ZN8PANSTAMP5rxOffEv
+                0x00000000        0x6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .text._ZN8PANSTAMP6wakeUpEv
+                0x00000000       0x14 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .text._ZN8PANSTAMP5sleepEv
+                0x00000000       0x4a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .text._ZN8PANSTAMP8sleepSecEj6RTCSRC
+                0x00000000       0xe6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .text._ZN4SWAPC2Ev
+                0x00000000       0x12 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .text._ZN4SWAP14enableRepeaterEh
+                0x00000000       0x50 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .text._ZN4SWAP9goToSleepEv
+                0x00000000       0x22 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .bss._ZZN4SWAP14enableRepeaterEhE4repe
+                0x00000000       0xa2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .bss._ZGVZN4SWAP14enableRepeaterEhE4repe
+                0x00000000        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .text.__cxa_deleted_virtual
+                0x00000000        0x4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_info    0x00000000       0x76 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_abbrev  0x00000000       0x6d C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_ranges  0x00000000       0x10 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_line    0x00000000       0xa9 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_str     0x00000000      0x1c5 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .comment       0x00000000       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_frame   0x00000000       0x34 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .text._ZN6AVRRTC6wakeUpEv
+                0x00000000       0x20 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .text._ZN6AVRRTC14setup_watchdogEh
+                0x00000000       0x2c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .text._ZN6AVRRTC9setup_rtcEh
+                0x00000000       0x26 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .text._ZN6AVRRTC7sleepWdEh
+                0x00000000       0x4a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .text._ZN6AVRRTC8sleepRtcEh
+                0x00000000       0x4a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .text          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .data          0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .bss           0x00000000        0x0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .text._ZN8REPEATER4initEh
+                0x00000000        0xe C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .text._ZN8REPEATERC2Ev
+                0x00000000        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .text._ZN8REPEATER5startEv
+                0x00000000        0xc C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .text._ZN8REPEATER4stopEv
+                0x00000000        0xa C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x00000000       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x00000000       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x00000000       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x00000000        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x00000000        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x00000000       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x00000000       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .text.avr-libc
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .text          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .text          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800100         0x00000800         rw !x
+eeprom           0x00810000         0x00000400         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+LOAD binouts2.o
+LOAD regtable.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a
+END GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a
+END GROUP
+                0x00000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x2476
+ *(.vectors)
+ .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.digital_pin_to_timer_PGM
+                0x00000068       0x14 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000068                digital_pin_to_timer_PGM
+ .progmem.data.digital_pin_to_bit_mask_PGM
+                0x0000007c       0x14 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000007c                digital_pin_to_bit_mask_PGM
+ .progmem.data.digital_pin_to_port_PGM
+                0x00000090       0x14 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000090                digital_pin_to_port_PGM
+ .progmem.data.port_to_output_PGM
+                0x000000a4        0xa C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000a4                port_to_output_PGM
+ .progmem.data.port_to_mode_PGM
+                0x000000ae        0xa C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000ae                port_to_mode_PGM
+                0x000000b8                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000b8                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000000b8        0x2 regtable.o
+ .ctors         0x000000ba        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .ctors         0x000000bc        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .ctors         0x000000be        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+                0x000000c0                __ctors_end = .
+                0x000000c0                __dtors_start = .
+ *(.dtors)
+                0x000000c0                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000c0        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+                0x000000c0                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000c0        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000cc       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x000000cc                __do_copy_data
+ .init4         0x000000e2       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x000000e2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x000000f2       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+                0x000000f2                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000108        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000110        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+                0x00000110                __vector_22
+                0x00000110                __vector_24
+                0x00000110                __vector_12
+                0x00000110                __bad_interrupt
+                0x00000110                __vector_3
+                0x00000110                __vector_23
+                0x00000110                __vector_25
+                0x00000110                __vector_11
+                0x00000110                __vector_13
+                0x00000110                __vector_17
+                0x00000110                __vector_7
+                0x00000110                __vector_5
+                0x00000110                __vector_4
+                0x00000110                __vector_21
+                0x00000110                __vector_15
+                0x00000110                __vector_8
+                0x00000110                __vector_14
+                0x00000110                __vector_10
+                0x00000110                __vector_20
+                0x00000114                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN4SWAP11getRegisterEh.isra.1
+                0x00000114       0x20 binouts2.o
+ .text.setup    0x00000134       0xbc binouts2.o
+                0x00000134                setup
+ .text.loop     0x000001f0       0x46 binouts2.o
+                0x000001f0                loop
+ .text._Z7setled1hPh
+                0x00000236       0x20 regtable.o
+                0x00000236                _Z7setled1hPh
+ .text._Z7setled0hPh
+                0x00000256        0x4 regtable.o
+                0x00000256                _Z7setled0hPh
+ .text._Z13setTxIntervalhPh
+                0x0000025a        0x8 regtable.o
+                0x0000025a                _Z13setTxIntervalhPh
+ .text._Z13setDevAddresshPh
+                0x00000262       0x80 regtable.o
+                0x00000262                _Z13setDevAddresshPh
+ .text._Z12setNetworkIdhPh
+                0x000002e2       0x7a regtable.o
+                0x000002e2                _Z12setNetworkIdhPh
+ .text._Z14updtVoltSupplyh
+                0x0000035c       0x3a regtable.o
+                0x0000035c                _Z14updtVoltSupplyh
+ .text._Z14setFreqChannelhPh
+                0x00000396       0x72 regtable.o
+                0x00000396                _Z14setFreqChannelhPh
+ .text._Z11setSysStatehPh
+                0x00000408       0x32 regtable.o
+                0x00000408                _Z11setSysStatehPh
+ .text.startup._GLOBAL__sub_I_regProductCode
+                0x0000043a      0x254 regtable.o
+ .text._ZN14HardwareSerial9availableEv
+                0x0000068e       0x18 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000068e                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x000006a6       0x1c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000006a6                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x000006c2       0x28 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000006c2                _ZN14HardwareSerial4readEv
+ .text._ZN14HardwareSerial17availableForWriteEv
+                0x000006ea       0x1e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000006ea                _ZN14HardwareSerial17availableForWriteEv
+ .text._Z14serialEventRunv
+                0x00000708       0x1c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000708                _Z14serialEventRunv
+ .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x00000724       0x44 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000724                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+ .text._ZN14HardwareSerial5writeEh
+                0x00000768       0x9a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000768                _ZN14HardwareSerial5writeEh
+ .text._ZN14HardwareSerial5flushEv
+                0x00000802       0x44 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000802                _ZN14HardwareSerial5flushEv
+ .text._ZN14HardwareSerial5beginEmh
+                0x00000846       0xc0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000846                _ZN14HardwareSerial5beginEmh
+ .text.__vector_18
+                0x00000906       0x64 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000906                __vector_18
+ .text.__vector_19
+                0x0000096a       0x4c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000096a                __vector_19
+ .text._Z17Serial0_availablev
+                0x000009b6       0x14 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000009b6                _Z17Serial0_availablev
+ .text.startup._GLOBAL__sub_I___vector_18
+                0x000009ca       0x5a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text.initVariant
+                0x00000a24        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x00000a24                initVariant
+ .text.startup.main
+                0x00000a26       0x1e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x00000a26                main
+ .text._ZN5Print5writeEPKhj
+                0x00000a44       0x54 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000a44                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x00000a98       0x2a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000a98                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEc
+                0x00000ac2        0xe C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000ac2                _ZN5Print5printEc
+ .text._ZN5Print7printlnEv
+                0x00000ad0        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000ad0                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPKc
+                0x00000ad8       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000ad8                _ZN5Print7printlnEPKc
+ .text._ZN5Print11printNumberEmh
+                0x00000afc       0x92 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000afc                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEli
+                0x00000b8e       0x90 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000b8e                _ZN5Print5printEli
+ .text._ZN5Print5printEii
+                0x00000c1e        0xe C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000c1e                _ZN5Print5printEii
+ .text.__vector_16
+                0x00000c2c       0x94 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000c2c                __vector_16
+ .text.millis   0x00000cc0       0x18 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000cc0                millis
+ .text.micros   0x00000cd8       0x4a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000cd8                micros
+ .text.delay    0x00000d22       0x78 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000d22                delay
+ .text.delayMicroseconds
+                0x00000d9a       0x12 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000d9a                delayMicroseconds
+ .text.init     0x00000dac       0x76 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000dac                init
+ .text.turnOffPWM
+                0x00000e22       0x52 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x00000e74       0x78 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000e74                pinMode
+ .text.digitalWrite
+                0x00000eec       0x5e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000eec                digitalWrite
+ .text._ZN6CC1101C2Ev
+                0x00000f4a       0x16 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00000f4a                _ZN6CC1101C1Ev
+                0x00000f4a                _ZN6CC1101C2Ev
+ .text._ZN6CC11018writeRegEhh
+                0x00000f60       0x28 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00000f60                _ZN6CC11018writeRegEhh
+ .text._ZN6CC110113writeBurstRegEhPhh
+                0x00000f88       0x52 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00000f88                _ZN6CC110113writeBurstRegEhPhh
+ .text._ZN6CC11019cmdStrobeEh
+                0x00000fda        0xe C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00000fda                _ZN6CC11019cmdStrobeEh
+ .text._ZN6CC11017readRegEhh
+                0x00000fe8       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00000fe8                _ZN6CC11017readRegEhh
+ .text._ZN6CC110112readBurstRegEPhhh
+                0x0000100c       0x56 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x0000100c                _ZN6CC110112readBurstRegEPhhh
+ .text._ZN6CC110111setSyncWordEhh
+                0x00001062       0x2e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00001062                _ZN6CC110111setSyncWordEhh
+ .text._ZN6CC110111setSyncWordEPh
+                0x00001090        0xa C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00001090                _ZN6CC110111setSyncWordEPh
+ .text._ZN6CC110113setDevAddressEh
+                0x0000109a       0x1c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x0000109a                _ZN6CC110113setDevAddressEh
+ .text._ZN6CC110110setChannelEh
+                0x000010b6       0x1c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x000010b6                _ZN6CC110110setChannelEh
+ .text._ZN6CC110114setCarrierFreqEh
+                0x000010d2       0x7e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x000010d2                _ZN6CC110114setCarrierFreqEh
+ .text._ZN6CC11018enablePAEv
+                0x00001150       0x10 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00001150                _ZN6CC11018enablePAEv
+ .text._ZN6CC110110setTxStateEv
+                0x00001160       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00001160                _ZN6CC110110setTxStateEv
+ .text._ZN6CC11019enableLNAEv
+                0x00001184       0x10 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00001184                _ZN6CC11019enableLNAEv
+ .text._ZN6CC110110setRxStateEv
+                0x00001194       0x26 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00001194                _ZN6CC110110setRxStateEv
+ .text._ZN6CC11018sendDataE8CCPACKET
+                0x000011ba       0xe0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x000011ba                _ZN6CC11018sendDataE8CCPACKET
+ .text._ZN6CC11019setCCregsEv
+                0x0000129a      0x230 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x0000129a                _ZN6CC11019setCCregsEv
+ .text._ZN6CC11015resetEv
+                0x000014ca       0x42 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x000014ca                _ZN6CC11015resetEv
+ .text._ZN6CC11014initEhh
+                0x0000150c       0x2a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x0000150c                _ZN6CC11014initEhh
+ .text._ZN6CC110111receiveDataEP8CCPACKET
+                0x00001536       0x98 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                0x00001536                _ZN6CC110111receiveDataEP8CCPACKET
+ .text._Z8radioISRv
+                0x000015ce       0x46 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+                0x000015ce                _Z8radioISRv
+ .text._ZN8PANSTAMPC2Ev
+                0x00001614       0x16 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+                0x00001614                _ZN8PANSTAMPC1Ev
+                0x00001614                _ZN8PANSTAMPC2Ev
+ .text._ZN8PANSTAMP4initEhh
+                0x0000162a       0x3e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+                0x0000162a                _ZN8PANSTAMP4initEhh
+ .text._ZN8PANSTAMP5resetEv
+                0x00001668       0x2c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+                0x00001668                _ZN8PANSTAMP5resetEv
+ .text._ZN8PANSTAMP6getVccEv
+                0x00001694       0x44 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+                0x00001694                _ZN8PANSTAMP6getVccEv
+ .text.startup._GLOBAL__sub_I__Z8radioISRv
+                0x000016d8        0x8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .text._ZN9SIMPLESPI4initEv
+                0x000016e0       0x3e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+                0x000016e0                _ZN9SIMPLESPI4initEv
+ .text._ZN9SIMPLESPI4sendEh
+                0x0000171e        0xc C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+                0x0000171e                _ZN9SIMPLESPI4sendEh
+ .text._ZN8REGISTER4initEv
+                0x0000172a       0x30 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+                0x0000172a                _ZN8REGISTER4initEv
+ .text._ZN8REGISTER14sendSwapStatusEv
+                0x0000175a       0x4a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+                0x0000175a                _ZN8REGISTER14sendSwapStatusEv
+ .text._ZN8REGISTER7getDataEv
+                0x000017a4       0x1c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+                0x000017a4                _ZN8REGISTER7getDataEv
+ .text._ZN8REGISTER7setDataEPh
+                0x000017c0       0x54 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+                0x000017c0                _ZN8REGISTER7setDataEPh
+ .text._ZN8REGISTER20setValueFromBeBufferEPh
+                0x00001814       0x36 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+                0x00001814                _ZN8REGISTER20setValueFromBeBufferEPh
+ .text._Z14pacKetReceivedP8CCPACKET
+                0x0000184a      0x184 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+                0x0000184a                _Z14pacKetReceivedP8CCPACKET
+ .text._ZN4SWAP23nvolatToFactoryDefaultsEv
+                0x000019ce       0xaa C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+                0x000019ce                _ZN4SWAP23nvolatToFactoryDefaultsEv
+ .text._ZN4SWAP4initEv
+                0x00001a78       0xaa C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+                0x00001a78                _ZN4SWAP4initEv
+ .text.startup._GLOBAL__sub_I__Z14pacKetReceivedP8CCPACKET
+                0x00001b22       0x14 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .text._ZN8SWPACKETC2Ev
+                0x00001b36        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+                0x00001b36                _ZN8SWPACKETC2Ev
+                0x00001b36                _ZN8SWPACKETC1Ev
+ .text._ZN8SWPACKET12smartEncryptEb
+                0x00001b38       0xe6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+                0x00001b38                _ZN8SWPACKET12smartEncryptEb
+ .text._ZN8SWPACKETC2EP8CCPACKET
+                0x00001c1e      0x114 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+                0x00001c1e                _ZN8SWPACKETC1EP8CCPACKET
+                0x00001c1e                _ZN8SWPACKETC2EP8CCPACKET
+ .text._ZN8SWPACKET4sendEv
+                0x00001d32      0x1ac C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+                0x00001d32                _ZN8SWPACKET4sendEv
+ .text._ZN8SWSTATUSC2EhPhh7SWDTYPE
+                0x00001ede       0x80 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+                0x00001ede                _ZN8SWSTATUSC1EhPhh7SWDTYPE
+                0x00001ede                _ZN8SWSTATUSC2EhPhh7SWDTYPE
+ .text.__empty  0x00001f5e        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                0x00001f5e                yield
+ .text.nothing  0x00001f60        0x2 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .text.attachInterrupt
+                0x00001f62       0x40 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00001f62                attachInterrupt
+ .text.detachInterrupt
+                0x00001fa2       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00001fa2                detachInterrupt
+ .text.__vector_1
+                0x00001fc6       0x4e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00001fc6                __vector_1
+ .text.__vector_2
+                0x00002014       0x4e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002014                __vector_2
+ .text.__vector_6
+                0x00002062       0x14 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+                0x00002062                __vector_6
+ .text.__vector_9
+                0x00002076       0x4a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+                0x00002076                __vector_9
+ .text._ZN7STORAGE4readEPhhhh
+                0x000020c0       0x5c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+                0x000020c0                _ZN7STORAGE4readEPhhhh
+ .text._ZN7STORAGE5writeEPhhhh
+                0x0000211c       0x5a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+                0x0000211c                _ZN7STORAGE5writeEPhhhh
+ .text._ZN8REPEATER15saveTransactionEP8SWPACKET
+                0x00002176       0x96 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+                0x00002176                _ZN8REPEATER15saveTransactionEP8SWPACKET
+ .text._ZN8REPEATER13packetHandlerEP8SWPACKET
+                0x0000220c      0x15c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+                0x0000220c                _ZN8REPEATER13packetHandlerEP8SWPACKET
+ .text.libgcc.div
+                0x00002368       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                0x00002368                _div
+                0x00002368                __divmodhi4
+ .text.libgcc.div
+                0x00002390       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00002390                __udivmodsi4
+ .text.libgcc.div
+                0x000023d4       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+                0x000023d4                __divmodsi4
+ .text.libgcc.div
+                0x00002402       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+                0x00002402                __negsi2
+ .text.libgcc.div
+                0x00002412       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x00002412                __udivmodhi4
+ .text.libgcc   0x0000243a        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000243a                __tablejump2__
+ .text.avr-libc
+                0x00002446       0x10 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+                0x00002446                eeprom_read_byte
+ .text.avr-libc
+                0x00002456       0x1c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+                0x00002456                eeprom_write_byte
+                0x00002458                eeprom_write_r18
+                0x00002472                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00002472        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00002472                _exit
+                0x00002472                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00002472        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00002476                _etext = .
+
+.data           0x00800100       0x5a load address 0x00002476
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.binaryPin
+                0x00800100        0x2 binouts2.o
+                0x00800100                binaryPin
+ .data.regTableSize
+                0x00800102        0x1 regtable.o
+                0x00800102                regTableSize
+ .data.regTable
+                0x00800103       0x1c regtable.o
+                0x00800103                regTable
+ .data._ZL11dtFwVersion
+                0x0080011f        0x4 regtable.o
+ .data._ZL11dtHwVersion
+                0x00800123        0x4 regtable.o
+ .data._ZL13dtProductCode
+                0x00800127        0x8 regtable.o
+ .data.intFunc  0x0080012f        0x4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZTV14HardwareSerial
+                0x00800133       0x12 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00800133                _ZTV14HardwareSerial
+ .rodata.str1.1
+                0x00800145        0xf C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .rodata.str1.1
+                0x00800154        0x6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .rodata.str1.1
+                0x0080015a        0x6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+                                  0x2 (size before relaxing)
+ *(.gnu.linkonce.r*)
+                0x00800160                . = ALIGN (0x2)
+                0x00800160                _edata = .
+                0x00800160                PROVIDE (__data_end, .)
+
+.bss            0x0080015a      0x1fe
+                0x0080015a                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.regLed1   0x0080015a        0xd regtable.o
+                0x0080015a                regLed1
+ .bss.led1      0x00800167        0x1 regtable.o
+                0x00800167                led1
+ .bss.regLed0   0x00800168        0xd regtable.o
+                0x00800168                regLed0
+ .bss.led0      0x00800175        0x1 regtable.o
+                0x00800175                led0
+ .bss.regVoltSupply
+                0x00800176        0xd regtable.o
+                0x00800176                regVoltSupply
+ .bss._ZL12dtVoltSupply
+                0x00800183        0x2 regtable.o
+ .bss.regTxInterval
+                0x00800185        0xd regtable.o
+                0x00800185                regTxInterval
+ .bss.regDevAddress
+                0x00800192        0xd regtable.o
+                0x00800192                regDevAddress
+ .bss.regNetworkId
+                0x0080019f        0xd regtable.o
+                0x0080019f                regNetworkId
+ .bss.regSecuNonce
+                0x008001ac        0xd regtable.o
+                0x008001ac                regSecuNonce
+ .bss.regPassword
+                0x008001b9        0xd regtable.o
+                0x008001b9                regPassword
+ .bss._ZL10dtPassword
+                0x008001c6        0x1 regtable.o
+ .bss.regSecuOption
+                0x008001c7        0xd regtable.o
+                0x008001c7                regSecuOption
+ .bss.regFreqChannel
+                0x008001d4        0xd regtable.o
+                0x008001d4                regFreqChannel
+ .bss.regSysState
+                0x008001e1        0xd regtable.o
+                0x008001e1                regSysState
+ .bss.regFwVersion
+                0x008001ee        0xd regtable.o
+                0x008001ee                regFwVersion
+ .bss.regHwVersion
+                0x008001fb        0xd regtable.o
+                0x008001fb                regHwVersion
+ .bss.regProductCode
+                0x00800208        0xd regtable.o
+                0x00800208                regProductCode
+ .bss.Serial    0x00800215       0x9d C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00800215                Serial
+ .bss.timer0_fract
+                0x008002b2        0x1 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .bss.timer0_millis
+                0x008002b3        0x4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x008002b3                timer0_millis
+ .bss.timer0_overflow_count
+                0x008002b7        0x4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x008002b7                timer0_overflow_count
+ .bss._ZZ8radioISRvE8ccPacket
+                0x008002bb       0x41 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .bss.panstamp  0x008002fc        0xd C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+                0x008002fc                panstamp
+ .bss.regIndex  0x00800309        0x1 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+                0x00800309                regIndex
+ .bss.swap      0x0080030a        0xc C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+                0x0080030a                swap
+ .bss._ZZN8SWPACKET12smartEncryptEbE7newData
+                0x00800316       0x3d C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .bss._ZN6AVRRTC5countE
+                0x00800353        0x4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+                0x00800353                _ZN6AVRRTC5countE
+ .bss._ZZN8REPEATER15saveTransactionEP8SWPACKETE16transactionIndex
+                0x00800357        0x1 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ *(COMMON)
+                0x00800358                PROVIDE (__bss_end, .)
+                0x00002476                __data_load_start = LOADADDR (.data)
+                0x000024d0                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800358        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x00800358                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 binouts2.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 regtable.o
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .comment       0x00000030       0x31 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x6a8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 binouts2.o
+ .debug_aranges
+                0x00000030       0x58 regtable.o
+ .debug_aranges
+                0x00000088       0x68 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_aranges
+                0x000000f0       0x48 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_aranges
+                0x00000138       0x30 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_aranges
+                0x00000168      0x100 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_aranges
+                0x00000268       0x48 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_aranges
+                0x000002b0       0x38 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_aranges
+                0x000002e8       0xe0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .debug_aranges
+                0x000003c8       0x70 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .debug_aranges
+                0x00000438       0x28 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .debug_aranges
+                0x00000460       0x40 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .debug_aranges
+                0x000004a0       0x50 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .debug_aranges
+                0x000004f0       0x38 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .debug_aranges
+                0x00000528       0x20 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .debug_aranges
+                0x00000548       0x20 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_aranges
+                0x00000568       0x40 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_aranges
+                0x000005a8       0x50 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .debug_aranges
+                0x000005f8       0x28 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .debug_aranges
+                0x00000620       0x48 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .debug_aranges
+                0x00000668       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .debug_aranges
+                0x00000688       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x12d48
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .debug_info    0x000005f4     0x151e binouts2.o
+ .debug_info    0x00001b12     0x1c23 regtable.o
+ .debug_info    0x00003735     0x1f6d C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x000056a2     0x1b16 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x000071b8      0x237 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x000073ef     0x28ff C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x00009cee      0x2cb C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x00009fb9      0x5fe C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x0000a5b7     0x1b90 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .debug_info    0x0000c147      0xf41 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .debug_info    0x0000d088      0x2e4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .debug_info    0x0000d36c      0x7e1 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .debug_info    0x0000db4d     0x1851 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .debug_info    0x0000f39e     0x1301 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .debug_info    0x0001069f      0x98f C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .debug_info    0x0001102e       0x3e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x0001106c      0x21c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_info    0x00011288      0x43f C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .debug_info    0x000116c7      0x322 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .debug_info    0x000119e9     0x122b C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .debug_info    0x00012c14       0x9a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .debug_info    0x00012cae       0x9a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+
+.debug_abbrev   0x00000000     0x3b1b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .debug_abbrev  0x000005a2      0x384 binouts2.o
+ .debug_abbrev  0x00000926      0x41e regtable.o
+ .debug_abbrev  0x00000d44      0x4c6 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x0000120a      0x3ce C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x000015d8      0x12d C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x00001705      0x47a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00001b7f      0x146 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x00001cc5      0x15b C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x00001e20      0x37b C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .debug_abbrev  0x0000219b      0x418 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .debug_abbrev  0x000025b3      0x13d C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .debug_abbrev  0x000026f0      0x25f C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .debug_abbrev  0x0000294f      0x439 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .debug_abbrev  0x00002d88      0x3bb C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .debug_abbrev  0x00003143      0x20a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .debug_abbrev  0x0000334d       0x2a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00003377       0xfc C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_abbrev  0x00003473      0x1c7 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .debug_abbrev  0x0000363a      0x141 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .debug_abbrev  0x0000377b      0x378 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .debug_abbrev  0x00003af3       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .debug_abbrev  0x00003b07       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+
+.debug_line     0x00000000     0x43f2
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x134 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .debug_line    0x00000134      0x374 binouts2.o
+ .debug_line    0x000004a8      0x31d regtable.o
+ .debug_line    0x000007c5      0x4cb C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x00000c90      0x2a1 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x00000f31      0x17a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x000010ab      0x69a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x00001745      0x2af C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x000019f4      0x267 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x00001c5b      0x825 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .debug_line    0x00002480      0x45a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .debug_line    0x000028da      0x1a9 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .debug_line    0x00002a83      0x26d C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .debug_line    0x00002cf0      0x503 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .debug_line    0x000031f3      0x4a9 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .debug_line    0x0000369c      0x1f7 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .debug_line    0x00003893       0x41 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x000038d4      0x1b7 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_line    0x00003a8b      0x317 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .debug_line    0x00003da2      0x247 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .debug_line    0x00003fe9      0x2f1 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+ .debug_line    0x000042da       0x7a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .debug_line    0x00004354       0x9e C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+
+.debug_frame    0x00000000     0x1304
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x60 binouts2.o
+ .debug_frame   0x00000060      0x118 regtable.o
+ .debug_frame   0x00000178      0x110 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_frame   0x00000288       0xe0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_frame   0x00000368       0x54 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x000003bc      0x3ac C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x00000768       0xc4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x0000082c       0x7c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x000008a8      0x2d4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .debug_frame   0x00000b7c      0x138 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .debug_frame   0x00000cb4       0x34 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .debug_frame   0x00000ce8       0xc0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .debug_frame   0x00000da8       0xec C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .debug_frame   0x00000e94       0xe0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .debug_frame   0x00000f74       0x48 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .debug_frame   0x00000fbc       0x24 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x00000fe0       0xf4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_frame   0x000010d4       0xc8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .debug_frame   0x0000119c       0x84 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .debug_frame   0x00001220       0xe4 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+
+.debug_str      0x00000000     0x3406
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .debug_str     0x00000208     0x100d binouts2.o
+                               0x10a4 (size before relaxing)
+ .debug_str     0x00001215      0x2b9 regtable.o
+                               0x12a3 (size before relaxing)
+ .debug_str     0x000014ce     0x133f C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                               0x163c (size before relaxing)
+ .debug_str     0x0000280d       0x86 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                               0x142f (size before relaxing)
+ .debug_str     0x00002893       0x37 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                                0x2db (size before relaxing)
+ .debug_str     0x000028ca      0x3f1 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                               0x1269 (size before relaxing)
+ .debug_str     0x00002cbb      0x156 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                                0x271 (size before relaxing)
+ .debug_str     0x00002e11       0xc7 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                                0x2d6 (size before relaxing)
+ .debug_str     0x00002ed8       0x94 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+                                0x80f (size before relaxing)
+ .debug_str     0x00002f6c       0xbb C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+                                0xb39 (size before relaxing)
+ .debug_str     0x00003027       0x28 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+                                0x2fc (size before relaxing)
+ .debug_str     0x0000304f       0x69 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+                                0x592 (size before relaxing)
+ .debug_str     0x000030b8      0x113 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+                               0x1200 (size before relaxing)
+ .debug_str     0x000031cb       0x66 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+                               0x1001 (size before relaxing)
+ .debug_str     0x00003231       0x3f C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+                                0x893 (size before relaxing)
+ .debug_str     0x00003270       0x1c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                                0x166 (size before relaxing)
+ .debug_str     0x0000328c       0x62 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+                                0x25e (size before relaxing)
+ .debug_str     0x000032ee       0x60 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+                                0x39e (size before relaxing)
+ .debug_str     0x0000334e       0x5a C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+                                0x329 (size before relaxing)
+ .debug_str     0x000033a8       0x5e C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+                                0xf64 (size before relaxing)
+
+.debug_loc      0x00000000     0x5f57
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x12a binouts2.o
+ .debug_loc     0x0000012a      0x866 regtable.o
+ .debug_loc     0x00000990      0x449 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x00000dd9      0x1b0 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x00000f89     0x1c87 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00002c10      0x28d C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x00002e9d      0x5fc C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00003499      0xe80 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .debug_loc     0x00004319      0x5d1 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .debug_loc     0x000048ea       0x4c C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .debug_loc     0x00004936      0x29d C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .debug_loc     0x00004bd3      0x3e9 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .debug_loc     0x00004fbc      0x36f C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .debug_loc     0x0000532b      0x15b C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .debug_loc     0x00005486      0x235 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_loc     0x000056bb      0x24f C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .debug_loc     0x0000590a      0x393 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .debug_loc     0x00005c9d      0x2ba C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x5a0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x20 binouts2.o
+ .debug_ranges  0x00000020       0x48 regtable.o
+ .debug_ranges  0x00000068       0x58 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_ranges  0x000000c0       0x38 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_ranges  0x000000f8       0x20 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x00000118      0x120 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x00000238       0x38 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x00000270       0x28 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x00000298       0xe8 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(cc1101.o)
+ .debug_ranges  0x00000380       0x60 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(panstamp.o)
+ .debug_ranges  0x000003e0       0x18 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(simplespi.o)
+ .debug_ranges  0x000003f8       0x30 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(register.o)
+ .debug_ranges  0x00000428       0x40 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swap.o)
+ .debug_ranges  0x00000468       0x40 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swpacket.o)
+ .debug_ranges  0x000004a8       0x10 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(swstatus.o)
+ .debug_ranges  0x000004b8       0x10 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x000004c8       0x30 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_ranges  0x000004f8       0x40 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(avrrtc.o)
+ .debug_ranges  0x00000538       0x18 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(storage.o)
+ .debug_ranges  0x00000550       0x50 C:\Users\Helge\source\repos\PERFOR~1\PANSTA~4\SWAPLE~1\ARDUIN~1\Debug\libArduinoCore.a(repeater.o)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(binouts2.elf elf32-avr)
+LOAD linker stubs
