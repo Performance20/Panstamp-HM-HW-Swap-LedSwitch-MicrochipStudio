@@ -73,6 +73,7 @@ REGISTER regLed1(led1, sizeof(led1), NULL, &setled1);
  */
 DECLARE_REGISTERS_START()
   &regProcVoltSupply,
+  &regBattVoltSupply,
   &regLed0,
   &regLed1
 DECLARE_REGISTERS_END()
