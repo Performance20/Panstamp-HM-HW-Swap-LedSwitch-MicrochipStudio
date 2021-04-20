@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit or delete the file
 ################################################################################
 
-binouts2.cpp
+ledstatus.cpp
 
 regtable.cpp
 

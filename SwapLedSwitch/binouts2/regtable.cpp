@@ -34,10 +34,11 @@
 #include "product.h"
 #include "regtable.h"
 
+
 /**
  * Declaration of custom functions
  */
-const void updtVoltSupply(byte rId);
+const void updtProcVoltSupply(byte rId);
 const void setled0(byte rId, byte *state);
 const void setled1(byte rId, byte *state);
 
@@ -56,8 +57,8 @@ REGISTER regRepeaterCfg(dtRepeaterCfg, sizeof(dtRepeaterCfg), NULL, NULL);
 // Binary output registers
 */
 // Voltage supply
-static byte dtVoltSupply[2];
-REGISTER regVoltSupply(dtVoltSupply, sizeof(dtVoltSupply), &updtVoltSupply, NULL);
+static byte dtProcVoltSupply[2];
+REGISTER regProcVoltSupply(dtProcVoltSupply, sizeof(dtProcVoltSupply), &updtProcVoltSupply, NULL);
 byte led0[1];       // led0 state
 REGISTER regLed0(led0, sizeof(led0), NULL, &setled0);
 byte led1[1];       // led1 state
@@ -68,9 +69,9 @@ REGISTER regLed1(led1, sizeof(led1), NULL, &setled1);
  * Initialize table of registers
  */
 DECLARE_REGISTERS_START()
-  &regVoltSupply,
+  &regProcVoltSupply,
   &regLed0,
-  &regLed1,
+  &regLed1
 DECLARE_REGISTERS_END()
 
 /**
@@ -89,7 +90,7 @@ DEFINE_COMMON_CALLBACKS()
  *
  * 'rId'  Register ID
  */
-const void updtVoltSupply(byte rId)
+const void updtProcVoltSupply(byte rId)
 {  
   unsigned long result = panstamp.getVcc();
   
@@ -107,10 +108,13 @@ const void updtVoltSupply(byte rId)
 const void setled0(byte rId, byte *state)
 {
     // Update register
+	
    regTable[rId]->value[0] = state[0];
-
-  // set led
-  //digitalWrite(binaryPin[output], state[0]);
+   if (led0[0] == 0)
+		digitalWrite(LED, LOW);
+   else
+		digitalWrite(LED, HIGH);
+		
 }
 
 /**
@@ -123,7 +127,4 @@ const void setled1(byte rId, byte *state)
 {
     // Update register
   regTable[rId]->value[0] = state[0];
-
-  // set led
-  //digitalWrite(binaryPin[output], state[0]);
 }

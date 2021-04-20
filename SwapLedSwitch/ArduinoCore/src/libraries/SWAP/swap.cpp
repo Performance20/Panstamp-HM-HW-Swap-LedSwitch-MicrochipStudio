@@ -205,9 +205,11 @@ void SWAP::enableRepeater(unsigned char maxHop)
  */
 void SWAP::goToSleep(void)
 {
-  systemState = SYSTATE_RXOFF;
+  enterSystemState(SYSTATE_RXOFF);
+  //systemState = SYSTATE_RXOFF;
   panstamp.sleepSec(txInterval);
-  systemState = SYSTATE_RXON;
+  enterSystemState(SYSTATE_SYNC);
+  //systemState = SYSTATE_RXON;
 }
 
 /**
