@@ -239,7 +239,7 @@ void SWAP::nvolatToFactoryDefaults(void)
   nvMem.write(addr, DEFAULT_NVOLAT_SECTION, NVOLAT_DEVICE_ADDR, sizeof(addr));
   
   // TX interval
-  uint8_t txInt[] = {0x0F, 0};
+  uint8_t txInt[] = {0x01, 0};
   nvMem.write(txInt, DEFAULT_NVOLAT_SECTION, NVOLAT_TX_INTERVAL, sizeof(txInt));
 }
 
