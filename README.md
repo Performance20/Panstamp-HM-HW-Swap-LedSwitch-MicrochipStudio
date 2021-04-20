@@ -8,4 +8,6 @@ Adaption to compile via MicrochipStudio 7.
  Used Pins can be find at panpins.h, which I added as new file to the Panstamp code.
  I used the standard hardware Spi Pins to connect to the CC1101 modul (Mosi, Miso, SS, SCL) + INT0 (PB2) as Interrupt from the CC1101 (GDO0).
  
+ This Version use AskSkin++ Hardware board (homematic), because provide all needed features.
+ 
 
