@@ -31,8 +31,8 @@
 *.out
 *.app
 
-/**/Debug/
-/**/Release/
+/**/**/Debug/
+/**/**/Release/
 .vs/
 
 
