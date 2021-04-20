@@ -39,6 +39,7 @@
  * Declaration of custom functions
  */
 const void updtProcVoltSupply(byte rId);
+const void updtBattVoltSupply(byte rId);
 const void setled0(byte rId, byte *state);
 const void setled1(byte rId, byte *state);
 
@@ -59,6 +60,8 @@ REGISTER regRepeaterCfg(dtRepeaterCfg, sizeof(dtRepeaterCfg), NULL, NULL);
 // Voltage supply
 static byte dtProcVoltSupply[2];
 REGISTER regProcVoltSupply(dtProcVoltSupply, sizeof(dtProcVoltSupply), &updtProcVoltSupply, NULL);
+static byte dtBattVoltSupply[2];
+REGISTER regBattVoltSupply(dtBattVoltSupply, sizeof(dtBattVoltSupply), &updtBattVoltSupply, NULL);
 byte led0[1];       // led0 state
 REGISTER regLed0(led0, sizeof(led0), NULL, &setled0);
 byte led1[1];       // led1 state
@@ -98,6 +101,24 @@ const void updtProcVoltSupply(byte rId)
   regTable[rId]->value[0] = (result >> 8) & 0xFF;
   regTable[rId]->value[1] = result & 0xFF;
 }
+
+
+/**
+ * updtVoltSupply
+ *
+ * Measure voltage supply and update register
+ *
+ * 'rId'  Register ID
+ */
+const void updtBattVoltSupply(byte rId)
+{  
+  unsigned long result = panstamp.getVcc();
+  
+  // Update register value
+  regTable[rId]->value[0] = (result >> 8) & 0xFF;
+  regTable[rId]->value[1] = result & 0xFF;
+}
+
 
 /**
  * setled0

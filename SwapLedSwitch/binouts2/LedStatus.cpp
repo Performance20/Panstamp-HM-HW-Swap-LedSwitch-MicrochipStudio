@@ -42,7 +42,8 @@ void setup()
   swap.getRegister(REGI_TXINTERVAL)->getData();
 
   // Transmit initial custom register
-  swap.getRegister(REGI_VOLTSUPPLY)->getData();
+  swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
+  swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
   swap.getRegister(REGI_LED0)->getData();
   swap.getRegister(REGI_LED1)->getData();
   
@@ -66,7 +67,9 @@ void loop()
   // receive possible set commands
   delay(1000);
   // update Processor Voltage
-  swap.getRegister(REGI_VOLTSUPPLY)->getData();
+  swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
+  // update Batterie Voltage
+  swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
   
  
  // 
