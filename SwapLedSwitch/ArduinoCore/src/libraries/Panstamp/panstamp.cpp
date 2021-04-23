@@ -277,7 +277,7 @@ uint16_t PANSTAMP::getVcc(void)
   while (bit_is_set(ADCSRA,ADSC));
   result = ADCL;
   result |= ADCH << 8;
-  result = 1126400L / result; // Back-calculate AVcc in mV
+  result = 1077000L / result; // Back-calculate AVcc in mV
   
   return result;
 }

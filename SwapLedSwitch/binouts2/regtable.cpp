@@ -42,6 +42,10 @@ const void updtProcVoltSupply(byte rId);
 const void updtBattVoltSupply(byte rId);
 const void setled0(byte rId, byte *state);
 const void setled1(byte rId, byte *state);
+	  void initExtBattMeasurement(void);
+	  void switchExtBattMeasurement(uint8_t stat);
+  uint16_t getBatteryVoltage(void);
+  uint16_t getAdcValue(uint8_t adcmux);
 
 /**
  * Definition of common registers
@@ -96,7 +100,7 @@ DEFINE_COMMON_CALLBACKS()
  */
 const void updtProcVoltSupply(byte rId)
 {  
-  unsigned long result = panstamp.getVcc();
+  uint16_t result = panstamp.getVcc();
   
   // Update register value
   regTable[rId]->value[0] = (result >> 8) & 0xFF;
@@ -113,7 +117,7 @@ const void updtProcVoltSupply(byte rId)
  */
 const void updtBattVoltSupply(byte rId)
 {  
-  unsigned long result = panstamp.getVcc();
+  uint16_t result = getBatteryVoltage();
   
   // Update register value
   regTable[rId]->value[0] = (result >> 8) & 0xFF;
@@ -149,4 +153,41 @@ const void setled1(byte rId, byte *state)
 {
     // Update register
   regTable[rId]->value[0] = state[0];
+}
+
+
+/*
+*  Battery measurement functions stolen from asksin++
+*/
+
+#define BAT_NUM_MESS_ADC       5
+#define BATT_MEASURE_PIN       A3
+#define BATT_ENABLE_PIN        7
+
+#define AVR_BANDGAP_VOLTAGE    3080L
+
+/**
+ * get the voltage off battery
+ */
+uint16_t  getBatteryVoltage(void) {
+	
+	uint32_t adcValue = 0;
+	
+	pinMode(BATT_MEASURE_PIN, INPUT);						// set the ADC pin as input
+	
+	pinMode(BATT_ENABLE_PIN, OUTPUT);						// set pin as out put
+	digitalWrite(BATT_ENABLE_PIN, LOW);						// activate network 			
+	  
+	analogReference(EXTERNAL); // pin is connected to VCC
+	for (int i=0; i<BAT_NUM_MESS_ADC; i++)
+	{
+	  adcValue += analogRead(BATT_MEASURE_PIN);
+	  delay(2);
+	}	  
+	adcValue /= BAT_NUM_MESS_ADC;
+	
+	pinMode(BATT_ENABLE_PIN, INPUT_PULLUP);  
+	digitalWrite(BATT_MEASURE_PIN, HIGH);
+	
+	return (adcValue * AVR_BANDGAP_VOLTAGE * 57) / 10240;  // R1=470k, R2=100k	 
 }

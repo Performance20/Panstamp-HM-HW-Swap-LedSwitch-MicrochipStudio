@@ -173,7 +173,6 @@ void SWAP::init(void)
   panstamp.radio.devAddress = devAddress & 0xFF; 
   panstamp.init();
   panstamp.setHighTxPower();
-   Serial.println("hier\n");
   // Attach RF ISR
   panstamp.attachInterrupt(pacKetReceived);
 }

@@ -5,7 +5,7 @@
 #include "regtable.h"
 #include "swap.h"
 
-#define SERIAL_SPEED             38400
+#define SERIAL_SPEED             9600
 
 /**
  * setup
@@ -17,9 +17,12 @@ void setup()
   int i;
   
   INIT_ONBOARD_LED();
-  digitalWrite(LED, LOW);
-
+  digitalWrite(LED, HIGH);
+  
+  
+  
   Serial.begin(SERIAL_SPEED);
+  
   // Init SWAP stack
   swap.init();
   // Optionally set transmission amplifier to its maximum level (10dB)
@@ -48,7 +51,8 @@ void setup()
   swap.getRegister(REGI_LED1)->getData();
   
   swap.enterSystemState(SYSTATE_RXOFF);
-  //Serial.println("Modul ready!\n");
+  
+  Serial.println("Modul ready!");
 }
 
 /**
@@ -56,7 +60,7 @@ void setup()
  *
  * Arduino main loop
  */
-
+extern uint16_t getBatteryVoltage(void);
 void loop()
 {
   int i;
@@ -65,12 +69,13 @@ void loop()
   swap.goToSleep();
    
   // receive possible set commands
-  delay(1000);
+ 
   // update Processor Voltage
   swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
   // update Batterie Voltage
   swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
-  
- 
+
+   delay(1000);
+   swap.enterSystemState(SYSTATE_SYNC);
  // 
 }
