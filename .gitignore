@@ -34,6 +34,7 @@
 /**/**/Debug/
 /**/**/Release/
 .vs/
+/Hardware/Bootloader/MiniCore-master/
 
 
 ## Ignore Visual Studio temporary files, build results, and
