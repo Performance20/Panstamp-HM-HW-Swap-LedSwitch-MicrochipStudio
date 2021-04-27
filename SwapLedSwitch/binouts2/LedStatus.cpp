@@ -1,11 +1,16 @@
 ﻿/*
  
  */
- 
+
+#include <avr/wdt.h> 
 #include "regtable.h"
 #include "swap.h"
 
 #define SERIAL_SPEED             9600
+byte led0[1] = { 0 };	 	// led1 state
+byte rst[1] = { 0 };
+
+extern uint16_t getBatteryVoltage(void);
 
 /**
  * setup
@@ -15,14 +20,12 @@
 void setup()
 {
   int i;
-  
+
   INIT_ONBOARD_LED();
   digitalWrite(LED, HIGH);
   
-  
-  
   Serial.begin(SERIAL_SPEED);
-  
+    
   // Init SWAP stack
   swap.init();
   // Optionally set transmission amplifier to its maximum level (10dB)
@@ -42,6 +45,8 @@ void setup()
 	digitalWrite(LED, LOW);
 	delay(450);
   }
+ 
+  	
   swap.getRegister(REGI_TXINTERVAL)->getData();
 
   // Transmit initial custom register
@@ -49,10 +54,12 @@ void setup()
   swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
   swap.getRegister(REGI_LED0)->getData();
   swap.getRegister(REGI_LED1)->getData();
+  swap.getRegister(CMD_RESET)->getData();
   
-  swap.enterSystemState(SYSTATE_RXOFF);
+  //swap.enterSystemState(SYSTATE_RXOFF);
   
-  Serial.println("Modul ready!");
+ //	digitalWrite(LED, HIGH);
+ Serial.println("Modul ready!");
 }
 
 /**
@@ -60,22 +67,27 @@ void setup()
  *
  * Arduino main loop
  */
-extern uint16_t getBatteryVoltage(void);
+
 void loop()
 {
-  int i;
-
    // Sleep
   swap.goToSleep();
-   
   // receive possible set commands
- 
+  swap.enterSystemState(SYSTATE_SYNC); 
   // update Processor Voltage
   swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
   // update Batterie Voltage
   swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
+ 
+  if (led0[0] != LOW)
+    digitalWrite(LED, HIGH);
 
-   delay(1000);
-   swap.enterSystemState(SYSTATE_SYNC);
- // 
+  if (rst[0] == 1)
+  {
+	 rst[0] = 0;
+	 delay(1000); 
+	 swap.enterSystemState(SYSTATE_RXOFF);
+	 panstamp.reset();
+  }
+   delay(3000);                       // wait for a second
 }

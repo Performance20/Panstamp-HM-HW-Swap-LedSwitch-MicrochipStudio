@@ -42,10 +42,10 @@ const void updtProcVoltSupply(byte rId);
 const void updtBattVoltSupply(byte rId);
 const void setled0(byte rId, byte *state);
 const void setled1(byte rId, byte *state);
-	  void initExtBattMeasurement(void);
-	  void switchExtBattMeasurement(uint8_t stat);
+const void modulreset(byte rId, byte *state);
   uint16_t getBatteryVoltage(void);
   uint16_t getAdcValue(uint8_t adcmux);
+
 
 /**
  * Definition of common registers
@@ -66,10 +66,12 @@ static byte dtProcVoltSupply[2];
 REGISTER regProcVoltSupply(dtProcVoltSupply, sizeof(dtProcVoltSupply), &updtProcVoltSupply, NULL);
 static byte dtBattVoltSupply[2];
 REGISTER regBattVoltSupply(dtBattVoltSupply, sizeof(dtBattVoltSupply), &updtBattVoltSupply, NULL);
-byte led0[1];       // led0 state
+extern byte led0[1];       // led0 state
 REGISTER regLed0(led0, sizeof(led0), NULL, &setled0);
-byte led1[1];       // led1 state
+       byte led1[1];       // led1 state
 REGISTER regLed1(led1, sizeof(led1), NULL, &setled1);
+extern byte rst[1];
+REGISTER regReset(rst, sizeof(rst), NULL, &modulreset);
 
 
 /**
@@ -79,7 +81,8 @@ DECLARE_REGISTERS_START()
   &regProcVoltSupply,
   &regBattVoltSupply,
   &regLed0,
-  &regLed1
+  &regLed1,
+  &regReset
 DECLARE_REGISTERS_END()
 
 /**
@@ -156,6 +159,16 @@ const void setled1(byte rId, byte *state)
 }
 
 
+const void modulreset(byte rId, byte *state)
+{
+	if (state[0] == 1)
+	{
+		swap.enterSystemState(SYSTATE_RXOFF);
+		rst[0] = state[0];
+		//panstamp.reset();
+	}
+}
+
 /*
 *  Battery measurement functions stolen from asksin++
 */
@@ -191,3 +204,4 @@ uint16_t  getBatteryVoltage(void) {
 	
 	return (adcValue * AVR_BANDGAP_VOLTAGE * 57) / 10240;  // R1=470k, R2=100k	 
 }
+

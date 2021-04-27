@@ -129,9 +129,12 @@ void PANSTAMP::init(uint8_t freq, uint8_t mode)
 void PANSTAMP::reset() 
 {
   // Reset module
-  wdt_disable();  
-  wdt_enable(WDTO_15MS);
-  while (1) {}
+  wdt_disable();
+  do 
+  {
+	wdt_enable(WDTO_15MS);
+	for (;;){}
+  } while (0);
 }
 
 /**

@@ -17,7 +17,22 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+#include <avr/wdt.h>
 #include <Arduino.h>
+
+uint8_t mcusr_mirror __attribute__ ((section (".noinit")));
+
+void get_mcusr(void) __attribute__((naked)) __attribute__((section(".init1")));
+void wdt_init(void) __attribute__((naked)) __attribute__((section(".init1")));
+
+
+void get_mcusr(void)
+{
+	mcusr_mirror = MCUSR;
+	// disable the dog
+	MCUSR = 0;
+	wdt_disable();
+}
 
 // Declared weak in Arduino.h to allow user redefinitions.
 int atexit(void (* /*func*/ )()) { return 0; }
@@ -32,6 +47,8 @@ void setupUSB() { }
 
 int main(void)
 {
+	get_mcusr();
+	
 	init();
 
 	initVariant();
