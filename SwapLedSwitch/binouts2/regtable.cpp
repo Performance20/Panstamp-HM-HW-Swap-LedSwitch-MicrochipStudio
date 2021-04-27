@@ -165,7 +165,7 @@ const void modulreset(byte rId, byte *state)
 	{
 		swap.enterSystemState(SYSTATE_RXOFF);
 		rst[0] = state[0];
-		//panstamp.reset();
+		panstamp.reset();
 	}
 }
 
@@ -173,10 +173,7 @@ const void modulreset(byte rId, byte *state)
 *  Battery measurement functions stolen from asksin++
 */
 
-#define BAT_NUM_MESS_ADC       5
-#define BATT_MEASURE_PIN       A3
-#define BATT_ENABLE_PIN        7
-
+#define BAT_NUM_MESS_ADC       10
 #define AVR_BANDGAP_VOLTAGE    3080L
 
 /**

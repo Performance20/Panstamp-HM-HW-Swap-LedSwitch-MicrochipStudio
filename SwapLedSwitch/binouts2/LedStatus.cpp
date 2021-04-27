@@ -78,16 +78,6 @@ void loop()
   swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
   // update Batterie Voltage
   swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
- 
-  if (led0[0] != LOW)
-    digitalWrite(LED, HIGH);
 
-  if (rst[0] == 1)
-  {
-	 rst[0] = 0;
-	 delay(1000); 
-	 swap.enterSystemState(SYSTATE_RXOFF);
-	 panstamp.reset();
-  }
    delay(3000);                       // wait for a second
 }

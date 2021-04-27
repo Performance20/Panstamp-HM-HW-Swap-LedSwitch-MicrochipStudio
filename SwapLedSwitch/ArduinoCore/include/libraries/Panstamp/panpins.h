@@ -30,32 +30,12 @@
 #define PORT_GDO0  PIND
 #define BIT_GDO0  2
 
-
-
-
-
-
-// LD-BOARD definitions
-#define HGM    (5)  //  20 = PD5
-#define LNA_EN (4) //  19 = PD4
-#define PA_EN  (3) //  18 = PD3
-
 // On-board LED
 #define ONBOARD_LED (4)  // PD4
 #define LED      ONBOARD_LED
 #define INIT_ONBOARD_LED()    pinMode(ONBOARD_LED, OUTPUT)
 
-// Preferred analog pin to measure battery voltage
-#define BATT_VOLT_PIN   (A0)
-
-// NTC power pin
-#define NTC_POWER_PIN   (7)  //PD7
-// NTC ADC pin
-
-#define NTC_PIN    (A7)
-
-// ADC resolution
-#define ADC_RESOLUTION  1023
-
+#define BATT_MEASURE_PIN       A3
+#define BATT_ENABLE_PIN        7
 
 #endif /* PANPINS_H_ */

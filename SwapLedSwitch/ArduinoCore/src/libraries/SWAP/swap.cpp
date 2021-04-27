@@ -207,8 +207,8 @@ void SWAP::goToSleep(void)
   enterSystemState(SYSTATE_RXOFF);
   //systemState = SYSTATE_RXOFF;
   panstamp.sleepSec(txInterval);
-  enterSystemState(SYSTATE_SYNC);
-  //systemState = SYSTATE_RXON;
+  //enterSystemState(SYSTATE_SYNC);
+  systemState = SYSTATE_RXON;
 }
 
 /**
