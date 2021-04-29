@@ -29,13 +29,14 @@ void setup()
   // Init SWAP stack
   swap.init();
   // Optionally set transmission amplifier to its maximum level (10dB)
-  panstamp.setHighTxPower();
+  //panstamp.setHighTxPower();
   
   // Transmit product code
   swap.getRegister(REGI_PRODUCTCODE)->getData();
   swap.getRegister(REGI_TXINTERVAL)->getData();
   // Enter SYNC state
   swap.enterSystemState(SYSTATE_SYNC);
+   //swap.enterSystemState(SYSTATE_RXON);
    
 // During 3 seconds, listen the network for possible commands whilst the LED blinks
   for(i=0 ; i<6 ; i++)
@@ -46,9 +47,6 @@ void setup()
 	delay(450);
   }
  
-  	
-  swap.getRegister(REGI_TXINTERVAL)->getData();
-
   // Transmit initial custom register
   swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
   swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
@@ -56,10 +54,7 @@ void setup()
   swap.getRegister(REGI_LED1)->getData();
   swap.getRegister(CMD_RESET)->getData();
   
-  //swap.enterSystemState(SYSTATE_RXOFF);
-  
- //	digitalWrite(LED, HIGH);
- Serial.println("Modul ready!");
+  Serial.println("Modul ready!");
 }
 
 /**
@@ -74,10 +69,13 @@ void loop()
   swap.goToSleep();
   // receive possible set commands
   swap.enterSystemState(SYSTATE_SYNC); 
+  delay(1000);
+  swap.enterSystemState(SYSTATE_RXON);
   // update Processor Voltage
   swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
   // update Batterie Voltage
   swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
-
-   delay(3000);                       // wait for a second
+  swap.getRegister(REGI_LED0)->getData();
+  swap.getRegister(REGI_LED1)->getData();
+  swap.getRegister(CMD_RESET)->getData();
 }

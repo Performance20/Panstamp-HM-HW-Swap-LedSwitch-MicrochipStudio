@@ -208,27 +208,3 @@ void SWPACKET::smartEncrypt(bool decrypt)
     nonce ^= swap.encryptPwd[9];
 }
 #endif
-
-/**
- * aesCrypto
- * 
- * Apply AES-128 encryption with CTR cipher to the SWAP packet passed
- * as argument
- */
-#ifdef PANSTAMP_NRG
-void SWPACKET::aesCrypto(void) 
-{
-  uint8_t i;
-  uint32_t initNonce = 0;
- 
-  // Create initial CTR nonce with first four bytes
-  // None of these fields are encrypted
-  for(i=0 ; i<4 ; i++)
-  {
-    initNonce <<= 8;
-    initNonce |= ccPacket.data[i];
-  }
-  
-  CC430AES::ctrCrypto(ccPacket.data + 4, ccPacket.length - 4, initNonce);
-}
-#endif
