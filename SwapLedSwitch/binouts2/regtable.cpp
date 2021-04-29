@@ -138,7 +138,7 @@ const void setled0(byte rId, byte *state)
 {
     // Update register
 	
-   regTable[rId]->value[0] = state[0];
+   led0[0] = state[0];
    if (led0[0] == 0)
 		digitalWrite(LED, LOW);
    else

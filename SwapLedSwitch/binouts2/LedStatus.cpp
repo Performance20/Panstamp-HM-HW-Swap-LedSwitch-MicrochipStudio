@@ -69,8 +69,8 @@ void loop()
   swap.goToSleep();
   // receive possible set commands
   swap.enterSystemState(SYSTATE_SYNC); 
-  delay(1000);
-  swap.enterSystemState(SYSTATE_RXON);
+  delay(500);
+  //swap.enterSystemState(SYSTATE_RXON);
   // update Processor Voltage
   swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
   // update Batterie Voltage
