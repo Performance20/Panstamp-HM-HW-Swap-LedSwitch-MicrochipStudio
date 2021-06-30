@@ -1,0 +1,88 @@
+
+<?xml version="1.0"?>
+<device>
+  <developer>helge</developer>
+  <product>Katzenklappe</product>
+  <pwrdownmode>true</pwrdownmode>
+  <regular>
+    <reg name="Processor_Voltage_supply" id="11">
+      <endpoint name="Processor_Voltage" type="num" dir="inp">
+        <size>2</size>
+        <units>
+          <unit name="V" factor="0.001" offset="0"/>
+        </units>
+      </endpoint>
+    </reg>
+   <reg name="Batterie_Voltage_supply" id="12">
+      <endpoint name="Battery_Voltage" type="num" dir="inp">
+        <size>2</size>
+        <units>
+          <unit name="V" factor="0.001" offset="0"/>
+        </units>
+      </endpoint>
+    </reg>
+	  <reg name="AngleValue_Raw" id="13">
+		  <endpoint name="AngleValue_Raw" type="num" dir="inp">
+			  <size>2</size>
+		  </endpoint>
+	  </reg>
+	  <reg name="AngleValue_Deg" id="14">
+		  <endpoint name="AngleValue_Deg" type="num" dir="inp">
+			  <size>2</size>
+			  <units>
+				  <unit name="Deg" factor="1" offset="0"/>
+			  </units>
+		  </endpoint>
+	  </reg>
+	  <reg name="Magnitude" id="15">
+		  <endpoint name="Magnitude" type="num" dir="inp">
+			  <size>2</size>
+		  </endpoint>
+	  </reg>
+	  <reg name="MagnetStrength" id="16">
+		  <endpoint name="MagnetStrength" type="num" dir="inp">
+			  <size>2</size>
+		  </endpoint>
+	  </reg>
+	  <reg name="ScaledAngle" id="17">
+		  <endpoint name="ScaledAngle" type="num" dir="inp">
+			  <size>2</size>
+		  </endpoint>
+	  </reg>
+	  <reg name="MaxAngle" id="18">
+		  <endpoint name="MaxAngle" type="num" dir="inp">
+			  <size>2</size>
+		  </endpoint>
+	  </reg>
+	  <reg name="StartPosition" id="19">
+		  <endpoint name="StartPosition" type="num" dir="inp">
+			  <size>2</size>
+		  </endpoint>
+	  </reg>
+	  <reg name="EndPosition" id="20">
+		  <endpoint name="EndPosition" type="num" dir="inp">
+			  <size>2</size>
+		  </endpoint>
+	  </reg>
+	  <reg name="i2cAddress" id="21">
+		  <endpoint name="i2cAddress" type="num" dir="inp">
+			  <size>2</size>
+		  </endpoint>
+	  </reg>
+	  <reg name="AGC" id="22">
+		  <endpoint name="AGC" type="num" dir="inp">
+			  <size>2</size>
+		  </endpoint>
+	  </reg>
+	  <reg name="led0" id="23">
+      <endpoint name="Led_0" type="num" dir="out"/>
+      <size>1</size>
+      <default>1</default>
+    </reg>
+    <reg name="led1" id="24">
+      <endpoint name="Led_1" type="num" dir="out"/>
+      <size>1</size>
+      <default>1</default>
+    </reg>
+  </regular>
+</device>
