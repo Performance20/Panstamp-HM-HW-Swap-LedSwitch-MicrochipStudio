@@ -368,6 +368,31 @@ int AMS_5600::burnMaxAngleAndConfig()
   return retVal;
 }
 
+/*
+ * Function: setPowerMode
+ * ----------------------------
+ *   powerMode: the desired power mode. Valid input values are 0, 1, 2, and 3, corresponding to Normal Mode, Low Power Mode 1, Low Power Mode 2, Low Power Mode 3.
+ * 
+ *   returns: boolean indicating is value was set. 
+ */
+bool AMS_5600::setPowerMode(uint8_t powerMode) {
+  if (powerMode != POWER_MODE_NORM && powerMode != POWER_MODE_LPM1 && powerMode != POWER_MODE_LPM2 && powerMode != POWER_MODE_LPM3) {
+    return false;
+  } 
+  uint8_t currentCONFLSB = readOneByte(_conf_lo);
+  uint8_t writeCONFLSB = currentCONFLSB & 0b11111100 | powerMode;
+  writeOneByte(_conf_lo, writeCONFLSB);
+  currentCONFLSB = readOneByte(_conf_lo);
+
+  return currentCONFLSB == writeCONFLSB;
+}
+
+uint8_t AMS_5600::getCONF() {
+
+	return readOneByte(_conf_lo);
+
+}
+
 /*******************************************************
   Method: readOneByte
   In: register to read

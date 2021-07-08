@@ -11,16 +11,22 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug OHNE Bootloader|AVR = Debug OHNE Bootloader|AVR
 		Release mit Bootloader|AVR = Release mit Bootloader|AVR
+		Release OHNE Bootloader|AVR = Release OHNE Bootloader|AVR
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug OHNE Bootloader|AVR.ActiveCfg = Debug|AVR
 		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug OHNE Bootloader|AVR.Build.0 = Debug|AVR
 		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release mit Bootloader|AVR.ActiveCfg = Release|AVR
 		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release mit Bootloader|AVR.Build.0 = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release OHNE Bootloader|AVR.ActiveCfg = Release OHNE Bootloader|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release OHNE Bootloader|AVR.Build.0 = Release OHNE Bootloader|AVR
 		{C644CC96-5AAA-4244-B883-045215A21A75}.Debug OHNE Bootloader|AVR.ActiveCfg = Debug|AVR
 		{C644CC96-5AAA-4244-B883-045215A21A75}.Debug OHNE Bootloader|AVR.Build.0 = Debug|AVR
 		{C644CC96-5AAA-4244-B883-045215A21A75}.Release mit Bootloader|AVR.ActiveCfg = Release|AVR
 		{C644CC96-5AAA-4244-B883-045215A21A75}.Release mit Bootloader|AVR.Build.0 = Release|AVR
+		{C644CC96-5AAA-4244-B883-045215A21A75}.Release OHNE Bootloader|AVR.ActiveCfg = Release OHNE Bootloader|AVR
+		{C644CC96-5AAA-4244-B883-045215A21A75}.Release OHNE Bootloader|AVR.Build.0 = Release OHNE Bootloader|AVR
+		{C644CC96-5AAA-4244-B883-045215A21A75}.Release OHNE Bootloader|AVR.Deploy.0 = Release OHNE Bootloader|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

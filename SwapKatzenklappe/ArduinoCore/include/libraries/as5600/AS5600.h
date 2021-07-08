@@ -20,6 +20,38 @@ class AMS_5600
 {
 public:
   AMS_5600(void);
+  
+  enum {
+	  POWER_MODE_NORM = 0,
+	  POWER_MODE_LPM1 = 1,
+	  POWER_MODE_LPM2 = 2,
+	  POWER_MODE_LPM3 = 3,
+
+	  HYSTERESIS_OFF = 0,
+	  HYSTERESIS_1LSB = 1,
+	  HYSTERESIS_2LSB = 2,
+	  HYSTERESIS_3LSB = 3,
+
+	  OUTPUT_STAGE_ANALOG_FULL = 0,
+	  OUTPUT_STAGE_ANALOG_REDUCED = 1,
+	  OUTPUT_STAGE_DIGITAL_PWM = 2,
+
+	  SLOW_FILTER_16X = 0,
+	  SLOW_FILTER_8X = 1,
+	  SLOW_FILTER_4X = 2,
+	  SLOW_FILTER_2X = 3,
+
+	  FAST_FILTER_THRESHOLD_SLOW = 0,
+	  FAST_FILTER_THRESHOLD_6LSB = 1,
+	  FAST_FILTER_THRESHOLD_7LSB = 2,
+	  FAST_FILTER_THRESHOLD_9LSB = 3,
+	  FAST_FILTER_THRESHOLD_18LSB = 4,
+	  FAST_FILTER_THRESHOLD_21LSB = 5,
+	  FAST_FILTER_THRESHOLD_24LSB = 6,
+	  FAST_FILTER_THRESHOLD_10LSB = 7,
+
+  };
+  
   int getAddress();
 
   word setMaxAngle(word newMaxAngle = -1);
@@ -43,6 +75,9 @@ public:
   int burnAngle();
   int burnMaxAngleAndConfig();
   void setOutPut(uint8_t mode);
+
+  bool setPowerMode(uint8_t powerMode);
+  uint8_t getCONF();
 
 private:
   int _ams5600_Address;

@@ -88,19 +88,20 @@ REGISTER regBattVoltSupply(dtBattVoltSupply, sizeof(dtBattVoltSupply), &updtBatt
 
 extern byte led0[1];       // led0 state
 REGISTER regLed0(led0, sizeof(led0), NULL, &setled0);
-byte led1[1];       // led1 state
-REGISTER regLed1(led1, sizeof(led1), NULL, &setled1);
+extern byte  led1[1];       // led1 state
+REGISTER regLed1(led1, sizeof(led1), NULL, &setled1, SWDTYPE_INTEGER, NVOLAT_FIRST_CUSTOM + sizeof(uint16_t));
 extern byte rst[1];
 REGISTER regReset(rst, sizeof(rst), NULL, &modulreset);
 
 static byte as5600_AngleValueRaw[2];
 REGISTER regAS5600_AngleValueRaw(as5600_AngleValueRaw, sizeof(as5600_AngleValueRaw), &updAS5600_AngleValueRaw, NULL);
+extern uint16_t as5600_AngleValueDegActual;
 static byte as5600_AngleValueDeg[2];
-REGISTER regAS5600_AngleValueDeg(as5600_AngleValueDeg, sizeof(as5600_AngleValueDeg), &updAS5600_AngleValueDeg, NULL);
-static byte as5600_MagnitudeValue[2];  // strengst of the magnet value
+REGISTER regAS5600_AngleValueDeg((uint8_t*)&as5600_AngleValueDeg, sizeof(as5600_AngleValueDeg), &updAS5600_AngleValueDeg, NULL);
+static byte as5600_MagnitudeValue[1];  // strengst of the magnet value
 REGISTER regAS5600_MagnitudeValue(as5600_MagnitudeValue, sizeof(as5600_MagnitudeValue), &updAS5600_MagnitudeValue, NULL);
-static byte as5600_MagnetStrengthValue[2];  // strengst of the magnet value
-REGISTER regAS5600_MagnetStrengthValue(as5600_MagnetStrengthValue, sizeof(as5600_MagnetStrengthValue), &updAS5600_MagnetStrengthValue, NULL);
+extern uint8_t as5600_MagnetStrengthValue;  // strengst of the magnet value
+REGISTER regAS5600_MagnetStrengthValue(&as5600_MagnetStrengthValue, sizeof(as5600_MagnetStrengthValue), &updAS5600_MagnetStrengthValue, NULL);
 static byte as5600_ScaledAngle[2];  
 REGISTER regAS5600_ScaledAngle(as5600_ScaledAngle, sizeof(as5600_ScaledAngle), &updAS5600_ScaledAngle, NULL);
 
@@ -211,10 +212,15 @@ const void updAS5600_AngleValueRaw(byte rId)
  */
 const void updAS5600_AngleValueDeg(byte rId)
 {
-  uint16_t agcValue = convertRawAngleToDegrees(ams5600.getRawAngle());
+  uint16_t rawa;
+
+  //rawa = ams5600.getRawAngle(); 	
+  //as5600_AngleValueDeg = convertRawAngleToDegrees(ams5600.getRawAngle());  // this code lead to a boot loop, why?
+  //as5600_AngleValueDeg = (uint16_t) ((rawa * 0.087) + 0.5); 
+  as5600_AngleValueDegActual = (uint16_t) ((ams5600.getRawAngle() * 0.087) + 0.5); 
   
-  regTable[rId]->value[0] = (agcValue >> 8) & 0xFF;
-  regTable[rId]->value[1] = agcValue & 0xFF;
+  regTable[rId]->value[0] = (as5600_AngleValueDegActual >> 8) & 0xFF;
+  regTable[rId]->value[1] = as5600_AngleValueDegActual & 0xFF;
 }
 
 /**
@@ -244,11 +250,8 @@ const void updAS5600_MagnitudeValue(byte rId)
  * 'rId'  Register ID
  */
 const void updAS5600_MagnetStrengthValue(byte rId)
-{
-  uint16_t agcValue  = ams5600.getMagnetStrength();
-  
-  regTable[rId]->value[0] = (agcValue >> 8) & 0xFF;
-  regTable[rId]->value[1] = agcValue & 0xFF;
+{ 
+  as5600_MagnetStrengthValue = ams5600.getMagnetStrength();
 }
 
 /**
@@ -381,7 +384,7 @@ const void setled0(byte rId, byte *state)
 const void setled1(byte rId, byte *state)
 {
     // Update register
-  regTable[rId]->value[0] = state[0];
+  led1[0] = state[0];
 }
 
 

@@ -158,12 +158,6 @@ bool SWPACKET::send(void)
     ccPacket.data[6] = regId;
   #endif
 
-  #ifdef PANSTAMP_NRG
-  // Need to be AES-128 encrypted?
-  if (security & 0x04)
-    aesCrypto();  // Encrypt
-  #endif
-
   i = SWAP_NB_TX_TRIES;
   while(!(res = panstamp.sendData(ccPacket)) && i>1)
   {
