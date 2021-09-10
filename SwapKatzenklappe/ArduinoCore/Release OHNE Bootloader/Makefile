@@ -85,7 +85,6 @@ C_SRCS +=  \
 ../src/libraries/Panstamp/avrrtc.cpp \
 ../src/libraries/Panstamp/calibration.cpp \
 ../src/libraries/Panstamp/cc1101.cpp \
-../src/libraries/Panstamp/main.cpp \
 ../src/libraries/Panstamp/panstamp.cpp \
 ../src/libraries/Panstamp/simplespi.cpp \
 ../src/libraries/Panstamp/storage.cpp \
@@ -137,7 +136,6 @@ src/libraries/as5600/AS5600.o \
 src/libraries/Panstamp/avrrtc.o \
 src/libraries/Panstamp/calibration.o \
 src/libraries/Panstamp/cc1101.o \
-src/libraries/Panstamp/main.o \
 src/libraries/Panstamp/panstamp.o \
 src/libraries/Panstamp/simplespi.o \
 src/libraries/Panstamp/storage.o \
@@ -181,7 +179,6 @@ src/libraries/as5600/AS5600.o \
 src/libraries/Panstamp/avrrtc.o \
 src/libraries/Panstamp/calibration.o \
 src/libraries/Panstamp/cc1101.o \
-src/libraries/Panstamp/main.o \
 src/libraries/Panstamp/panstamp.o \
 src/libraries/Panstamp/simplespi.o \
 src/libraries/Panstamp/storage.o \
@@ -225,7 +222,6 @@ src/libraries/as5600/AS5600.d \
 src/libraries/Panstamp/avrrtc.d \
 src/libraries/Panstamp/calibration.d \
 src/libraries/Panstamp/cc1101.d \
-src/libraries/Panstamp/main.d \
 src/libraries/Panstamp/panstamp.d \
 src/libraries/Panstamp/simplespi.d \
 src/libraries/Panstamp/storage.d \
@@ -269,7 +265,6 @@ src/libraries/as5600/AS5600.d \
 src/libraries/Panstamp/avrrtc.d \
 src/libraries/Panstamp/calibration.d \
 src/libraries/Panstamp/cc1101.d \
-src/libraries/Panstamp/main.d \
 src/libraries/Panstamp/panstamp.d \
 src/libraries/Panstamp/simplespi.d \
 src/libraries/Panstamp/storage.d \
@@ -487,13 +482,6 @@ src/libraries/Panstamp/calibration.o: ../src/libraries/Panstamp/calibration.cpp
 	
 
 src/libraries/Panstamp/cc1101.o: ../src/libraries/Panstamp/cc1101.cpp
-	@echo Building file: $<
-	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
-	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DARDUINO=108013 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -DF_CPU=8000000L -DNDEBUG  -I"..\include" -I"..\include\core" -I"..\include\variants\eightanaloginputs" -I"..\include\variants\standard" -I"..\include\libraries\SWAP" -I"../include/libraries/Panstamp" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility" -I"..\\..\ArduinoCore\include\libraries\as5600" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\include"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -w -mmcu=atmega328p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\gcc\dev\atmega328p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
-	@echo Finished building: $<
-	
-
-src/libraries/Panstamp/main.o: ../src/libraries/Panstamp/main.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
 	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DARDUINO=108013 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -DF_CPU=8000000L -DNDEBUG  -I"..\include" -I"..\include\core" -I"..\include\variants\eightanaloginputs" -I"..\include\variants\standard" -I"..\include\libraries\SWAP" -I"../include/libraries/Panstamp" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility" -I"..\\..\ArduinoCore\include\libraries\as5600" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\include"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -w -mmcu=atmega328p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\gcc\dev\atmega328p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 

@@ -63,6 +63,13 @@ enum PANSTAMP_STATE
   RXOFF,
 };
 
+enum PANSTAMP_RADIO_POWER
+{
+	ON = 0,
+	OFF,
+	ON_OFF,
+	NONE,
+};
 /**
  * Class: PANSTAMP
  * 
@@ -163,7 +170,7 @@ class PANSTAMP
      * @param time Sleep time in seconds
      * @param source Source of interruption (RTCSRC_WDT or RTCSRC_XT2)
      */
-	void sleepMSec(uint16_t time, RTCSRC source=RTCSRC_XT2);
+	void sleepMSec(uint16_t time, RTCSRC source=RTCSRC_XT2, PANSTAMP_RADIO_POWER radioSet = ON_OFF);
 
     /**
      * getVcc
@@ -222,6 +229,20 @@ class PANSTAMP
     {
       return radio.sendData(packet);
     }
+	
+	inline bool setRadioOFF()
+	{
+		 state = RXOFF;
+		 // Power-down CC1101
+		 radio.setPowerDownState();
+	}
+	
+	inline bool setRadioON()
+	{
+		 radio.wakeUp();
+		 // set system state to RF Rx ON
+		 state = RXON;
+	}
 };
 
 /**

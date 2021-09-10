@@ -271,7 +271,7 @@ void PANSTAMP::sleepSec(uint16_t time, RTCSRC source)
  * @param time Sleep time in seconds
  * @param source Source of interruption (RTCSRC_WDT or RTCSRC_XT2)
  */
-void PANSTAMP::sleepMSec(uint16_t time, RTCSRC source)
+void PANSTAMP::sleepMSec(uint16_t time, RTCSRC source, PANSTAMP_RADIO_POWER radioSet)
 {
   // No interval? Then return
   if (time == 0)
@@ -279,9 +279,10 @@ void PANSTAMP::sleepMSec(uint16_t time, RTCSRC source)
 
   // Search the maximum sleep time passed as argument to sleepWd that best
   // suits our desired interval
- state = RXOFF;
- // Power-down CC1101
- radio.setPowerDownState();
+  if ((radioSet == OFF) || (radioSet == ON_OFF))
+  {
+	setRadioOFF();
+  }
  
  if (source == RTCSRC_XT2)
  {
@@ -294,12 +295,13 @@ void PANSTAMP::sleepMSec(uint16_t time, RTCSRC source)
     rtc.sleepWd(time);
  }
  
-  // Reset CC1101 IC
-  radio.wakeUp();
-
-  // set system state to RF Rx ON
-  state = RXON; 
+ if ((radioSet == ON) || (radioSet == ON_OFF))
+ {
+	setRadioON();
+ }
 }
+
+
 
 
 /**

@@ -60,8 +60,6 @@ src\libraries\Panstamp\calibration.cpp
 
 src\libraries\Panstamp\cc1101.cpp
 
-src\libraries\Panstamp\main.cpp
-
 src\libraries\Panstamp\panstamp.cpp
 
 src\libraries\Panstamp\simplespi.cpp

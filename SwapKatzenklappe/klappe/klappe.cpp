@@ -20,9 +20,9 @@ uint8_t as5600_MagnetStrengthValue = 0;
 uint16_t oldAngleValue = 0;
 #define SLEEP_TIME        250
 uint16_t sleepIntervall = SLEEP_TIME;	// value 125 or 250 or 500 ms
-#define SEND_STATE_MSG		(1000 / SLEEP_TIME)	* swap.txInterval //if in loops, send all 4h a message
+#define SEND_STATE_MSG		(1000 / sleepIntervall)	* swap.txInterval //if in loops, send all 4h a message
 uint8_t res;
-uint32_t msgcnt = 0;
+uint32_t msgcnt = 40;
 
 #define STATE_INIT					0
 #define STATE_DETECT_SENSOR_I2C		STATE_INIT + 1
@@ -73,45 +73,52 @@ void setup()
   }
   // Optionally set transmission amplifier to its maximum level (10dB)
   //panstamp.setHighTxPower();
-  // Transmit all standard register
-  for (rgc=0; rgc<=REGI_TXINTERVAL; rgc++)
-   swap.getRegister(rgc)->getData();
+
   // Transmit initial custom register 
   //for (rgc=REGI_PROCVOLTSUPPLY; rgc<=REGI_STATECODE; rgc++)
 	 // swap.getRegister(rgc)->getData();
-  swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
-  swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
-  swap.getRegister(REGI_SLEEP_MS)->getData(); 
-  swap.getRegister(REGI_LED1)->getData();    
+  //swap.getRegister(REGI_PROCVOLTSUPPLY)->getData();
+  //swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
+  //swap.getRegister(REGI_SLEEP_MS)->getData(); 
+  //swap.getRegister(REGI_LED1)->getData();    
   // attach Hall position sensor	  
   stateCode = STATE_DETECT_SENSOR_I2C;
   swap.getRegister(REGI_STATECODE)->getData();
   Wire.begin();  
-  if(ams5600.detectMagnet() == 0 ){
-	  while(1){
-		  if(ams5600.detectMagnet() == 1 ) {
-			  stateCode = STATE_MAIN_LOOP;
-			  swap.getRegister(REGI_STATECODE)->getData();
-			  break;
-		  }
-		  else {
+  while(1)
+  {
+	if(ams5600.detectMagnet() == 1 ) 
+	{
+	  stateCode = STATE_MAIN_LOOP;
+	  swap.getRegister(REGI_STATECODE)->getData();
+	  break;
+	}
+	else 
+	{
 #ifdef  USE_SERIAL_DEBUG			  
 			  Serial.println(F("Can not detect magnet"));
 #endif
-			  stateCode = STATE_MAGNET_DETECT;
-			  swap.getRegister(REGI_STATECODE)->getData();
-		  }
-		  delay(1000);
-	  }
-  }
-  swap.getRegister(REGI_AS5600_ANGLEDEG)->getData();
-  swap.getRegister(REGI_AS5600_MAGNETSTRENGTH)->getData();
+	  stateCode = STATE_MAGNET_DETECT;
+	  swap.getRegister(REGI_STATECODE)->getData();
+	}
+	 swap.systemState = SYSTATE_RXOFF;
+	 panstamp.sleepSec(300); //sleep 5 minutes and try again
+	 swap.systemState = SYSTATE_RXON;
+   } // end while
+  //swap.getRegister(REGI_AS5600_ANGLEDEG)->getData();
+  //swap.getRegister(REGI_AS5600_MAGNETSTRENGTH)->getData();
   res = ams5600.setPowerMode(ams5600.POWER_MODE_LPM3);
 #ifdef  USE_SERIAL_DEBUG    
   if (res == true)
 	Serial.println(F("Set Powermode to LPM3 = 100ms"));
   Serial.println(F("Modul ready!"));
 #endif
+  // Transmit all register
+  for (rgc=REGI_PRODUCTCODE; rgc<=REGI_SLEEP_MS; rgc++)
+  {
+	  swap.getRegister(rgc)->getData();
+	  delay(100);
+  }
 }
 
 /**
@@ -123,13 +130,15 @@ void setup()
 void loop()
 {
 	int16_t agcDiff;
+	uint8_t pass;
 	
-	updAS5600_MagnetStrengthValue(0);
-	if ((as5600_MagnetStrengthValue >=1) && (as5600_MagnetStrengthValue <=3))
-	{ // MAGNET IS AVAILABLE; DO NORMAL WORK
 		// receive possible set commands
-		if (msgcnt == 0)  {
+		pass = false;
+		if (msgcnt == 0) 
+		{
+			pass = true;
 			msgcnt = SEND_STATE_MSG;
+			panstamp.setRadioON();
 			swap.enterSystemState(SYSTATE_RXON);  
 			swap.getRegister(REGI_PROCVOLTSUPPLY)->getData(); 
 			swap.getRegister(REGI_BATTVOLTSUPPLY)->getData();
@@ -142,38 +151,32 @@ void loop()
 			Serial.println(String(as5600_AngleValueDegActual,DEC));
 #endif
 			swap.enterSystemState(SYSTATE_SYNC); 
- 			delay(1000); // wait for receive mesg
-			swap.enterSystemState(SYSTATE_RXOFF);
-			delay(500);
+ 			delay(2000); // wait for receive mesg
 		}
 		msgcnt--;	
 		updAS5600_AngleValueDeg(0);
 		agcDiff = as5600_AngleValueDegActual - oldAngleValue;
 		if ((agcDiff < (led1[0] * -1)) || (agcDiff > led1[0]))  // there is really a change and not only a noise
 		{
-		  swap.enterSystemState(SYSTATE_RXON);  
+		  if (pass == false) 
+		  {
+			  panstamp.setRadioON();
+			  pass = true;
+			  swap.enterSystemState(SYSTATE_RXON); 
+		  } 
 		  swap.getRegister(REGI_AS5600_ANGLEDEG)->getData();
 		  oldAngleValue = as5600_AngleValueDegActual;
-		  swap.enterSystemState(SYSTATE_SYNC); 
-		  delay(100);
-		  swap.enterSystemState(SYSTATE_RXOFF);
 #ifdef  USE_SERIAL_DEBUG
 		  Serial.print(F("Send Grad: "));
 		  Serial.println(String(as5600_AngleValueDegActual,DEC));
-		  delay(100);
 #endif
 		}
 		// Sleep
+		if (pass == true)
+		{
+		  swap.enterSystemState(SYSTATE_RXOFF); 
+		  delay(100);
+		  panstamp.setRadioOFF();
+		}
 		swap.goToSleepMS(sleepIntervall);		
-	}
-	else
-	{
-	 	swap.getRegister(REGI_AS5600_MAGNETSTRENGTH)->getData();
-#ifdef  USE_SERIAL_DEBUG		 
-		Serial.print(F("Magnet Strength: "));
-		Serial.println(as5600_MagnetStrengthValue);
-	    delay(500);
-#endif		
-		swap.goToSleep();
-	}
 }

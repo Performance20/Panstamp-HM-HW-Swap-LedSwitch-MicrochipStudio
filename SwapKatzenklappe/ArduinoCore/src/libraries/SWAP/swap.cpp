@@ -230,9 +230,9 @@ void SWAP::goToSleepMS(uint16_t ms)
   else
   if (ms == 500)
   time = RTC_500MS;
-  systemState = SYSTATE_RXOFF;
-  panstamp.sleepMSec(time);
-  systemState = SYSTATE_RXON;
+  //systemState = SYSTATE_RXOFF;
+  panstamp.sleepMSec(time, RTCSRC_XT2, NONE);
+  //systemState = SYSTATE_RXON;
 }
 
 
